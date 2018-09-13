@@ -14,7 +14,7 @@ public class HelloWorldAction extends Action{
 	
 	public ActionForward execute(ActionMapping mapping,ActionForm form,
 			HttpServletRequest request,HttpServletResponse response) throws Exception {
-		
+		asdasdasd
 		HelloWorldForm helloWorldForm = (HelloWorldForm) form;
 		helloWorldForm.setMessage("Hello World! Struts");
 		
